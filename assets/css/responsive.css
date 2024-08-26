@@ -223,8 +223,8 @@
     .header-wrapper header .download-cv a {
         border-radius: 3px;
     }
-    .stellarnav.mobile>ul { 
-        top: 140px;
+    .stellarnav.mobile>ul {
+        top: 91px;
         z-index: 9999;
     }
     .contact-form-wrapper .form-block form .box {
@@ -237,20 +237,21 @@
         padding-block-start: 80px;
     }
     .portfolio-wrapper .portfolio-image-gallery .button-group {
-        margin-block-end: 13px;
+        margin-block-end: 25px;
     }
     .skills-wrapper .skills-content-block p {
         line-height: 22px;
     }
     .portfolio-wrapper .portfolio-image-gallery .button-group button {
-        padding-block: 11px;
-        border-radius: 23px;
+        padding-block: 13px;
+        border-radius: 9px;
         backdrop-filter: blur(10px);
-        box-shadow: rgb(0 0 0 / 25%) 0px 4px 12px;
-        width: 46%;
+        box-shadow: rgb(0 0 0 / 93%) 0px -3px 7px;
+        width: 41%;
+        background: #ffffff0d;
     }
     .portfolio-wrapper .portfolio-image-gallery .button-group {
-        gap: 18px;
+        gap: 13px;
         flex-wrap: wrap;
     }
     .portfolio-wrapper .portfolio-image-gallery .button-group button {
@@ -272,7 +273,7 @@
         padding-block-end: 35px;
     }
     .portfolio-wrapper {
-        padding-block-end: 0;
+        padding-block-end: 50px;
     }
     .skills-wrapper .skills-content-block h4 {
         font-size: 24px;

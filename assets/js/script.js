@@ -124,7 +124,12 @@ $( '.portfolio-wrapper .portfolio-image-gallery .button-group button' ).click(fu
   $(this).addClass('active').siblings().removeClass('active in-active');
 });
 
-
+// =======================
+jQuery('.stellarnav ul li a').click(function(){
+  jQuery(this).parents('ul').css({
+    'display':'none',
+  });
+});
 
 
 
