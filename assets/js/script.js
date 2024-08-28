@@ -62,62 +62,62 @@ $('.filter-button-group').on( 'click', 'button', function() {
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
 
-    // =============== Ui-design ==========
-    $('#ui-design1').click(function(){
-      $('#ui-design2').removeClass('d-none');
-    });
-    $('#all').click(function(){
-      $('#ui-design2').addClass('d-none');
-    });
-    // =============== Ui-design ==========
-    $('#ui-design1').click(function(){
-      $('#ui-design3').removeClass('d-none');
-    });
-    $('#all').click(function(){
-      $('#ui-design3').addClass('d-none');
-    });
-
-  // =============== graphic-design =========
-  $('#graphic-design1').click(function(){
-    $('#graphic-design2').removeClass('d-none');
-  });
-  $('#all').click(function(){
-    $('#graphic-design2').addClass('d-none');
-  });
-
-  // =============== graphic-design =========
-  $('#graphic-design1').click(function(){
-    $('#graphic-design3').removeClass('d-none');
-  });
-  $('#all').click(function(){
-    $('#graphic-design3').addClass('d-none');
-  });
-
-  // =============== web design =========
-  $('#web-design1').click(function(){
-    $('#web-design2').removeClass('d-none');
-  });
-  $('#all').click(function(){
-    $('#web-design2').addClass('d-none');
-  });
-
-  // =============== web design =========
-  $('#web-design1').click(function(){
-    $('#web-design3').removeClass('d-none');
-  });
-  $('#all').click(function(){
-    $('#web-design3').addClass('d-none');
-  });
-  // =============== web design =========
-  $('#web-design1').click(function(){
-    $('#web-design4').removeClass('d-none');
-  });
-  $('#all').click(function(){
-    $('#web-design4').addClass('d-none');
-  });
-
-
 });
+// =========== ========== =========== ========== ========= ========= ============ ========= =========== =======
+// =============== Ui-design ==========
+$('#ui-design1').click(function(){
+  $('#ui-design2, #ui-design3').removeClass('d-none');
+});
+$('#all').click(function(){
+  $('#ui-design2, #ui-design3').addClass('d-none');
+});
+
+// =============== Ui-design ==========
+// $('#ui-design1').click(function(){
+//   $('#ui-design3').removeClass('d-none');
+// });
+// $('#all').click(function(){
+//   $('#ui-design3').addClass('d-none');
+// });
+
+// =============== graphic-design =========
+$('#graphic-design1').click(function(){
+$('#graphic-design2, #graphic-design3').removeClass('d-none');
+});
+$('#all').click(function(){
+$('#graphic-design2, #graphic-design3').addClass('d-none');
+});
+
+// =============== graphic-design =========
+// $('#graphic-design1').click(function(){
+// $('#graphic-design3').removeClass('d-none');
+// });
+// $('#all').click(function(){
+// $('#graphic-design3').addClass('d-none');
+// });
+
+// =============== web design =========
+$('#web-design1').click(function(){
+$('#web-design2, #web-design3, #web-design4').removeClass('d-none');
+});
+$('#all').click(function(){
+$('#web-design2, #web-design3, #web-design4').addClass('d-none');
+});
+
+// =============== web design =========
+// $('#web-design1').click(function(){
+// $('#web-design3').removeClass('d-none');
+// });
+// $('#all').click(function(){
+// $('#web-design3').addClass('d-none');
+// });
+// =============== web design =========
+// $('#web-design1').click(function(){
+// $('#web-design4').removeClass('d-none');
+// });
+// $('#all').click(function(){
+// $('#web-design4').addClass('d-none');
+// });
 
 
 $( '.portfolio-wrapper .portfolio-image-gallery .button-group button' ).click(function(){

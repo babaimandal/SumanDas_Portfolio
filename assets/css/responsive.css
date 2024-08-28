@@ -184,9 +184,6 @@
         font-weight: 400;
         font-size: 14px;
     }
-    .anchor-links{
-        position: relative;
-    }
     .animate {
         margin:  0 !important;
     }
@@ -257,6 +254,15 @@
     .portfolio-wrapper .portfolio-image-gallery .button-group button {
         font-size: 15px;
     }
+    .contact-form-wrapper .form-block .captcha-block{
+        flex-direction: column;
+    }
+    .contact-form-wrapper .form-block .captcha-block .captcha-box{
+        width: max-content !important;
+    }
+    .contact-form-wrapper .form-block .submit-button-wrapper{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 574px){
     .about-section-wrapper .high-quality {
@@ -316,7 +322,7 @@
         font-size: 13px;
     }
     .banner-content-wrapper {
-        padding-block-start: 45px;
+        padding-block-start: 21px;
         padding-block-end: 73px;
     }
     .banner-content-wrapper .banner-content .text-block h4 {
@@ -492,4 +498,5 @@
     .label-container{
         width: 150px !important;
     }
+    
 }

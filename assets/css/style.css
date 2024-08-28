@@ -678,11 +678,14 @@ a{
     height: 380px;
     background-color: #fff;
     border-radius: 20px;
+    position: relative;
+    z-index: 9;
 }
 .portfolio-wrapper .portfolio-image-gallery .top-block a{
     width: 100%;
     height: 100%;
 }
+
 .portfolio-wrapper .portfolio-image-gallery .top-block a img{
     width: 100%;
     height: 100%;
@@ -694,6 +697,8 @@ a{
     height: 190px;
     background-color: #00d9ff;
     border-radius: 12px;
+    position: relative;
+    z-index: 9;
 }
 .portfolio-wrapper .portfolio-image-gallery .bottom-block a{
     width: 100%;
@@ -855,6 +860,7 @@ a{
 .contact-form-wrapper {
     background-color: var(--backgound-color);
     padding-block-end: 40px;
+    z-index: -1;
 }
 .contact-form-wrapper .title{
     padding-block-end: 65px;
@@ -885,8 +891,7 @@ a{
 }
 .contact-form-wrapper .form-block{
     position: relative;
-    z-index: 111;
-}
+ }
 .contact-form-wrapper .form-block::after {
     content: '';
     position: absolute;
@@ -900,6 +905,14 @@ a{
     top: -160px;
     z-index: -1;
     animation: circle-move-form-block-after 100s linear infinite;
+}
+.contact-form-wrapper .form-block .captcha-block{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-form-wrapper .form-block .submit-button-wrapper{
+    width: 50%;
 }
 /* =========== Animation Circle MOve =========== */
 @keyframes circle-move-form-block-after {
@@ -1074,7 +1087,7 @@ a{
 .contact-form-wrapper .form-block form .captcha-button-wrapper{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    
 }
 .contact-form-wrapper .form-block form .captcha-button-wrapper .captcha-box{
     width: 50%;
@@ -1154,7 +1167,7 @@ a{
     right: 0;
     position: fixed;
     backdrop-filter: blur(10px);
-    z-index: 999999;
+    z-index: 1;
     padding-block: 8px;
     transition: 2s ease-in-out;
     border-bottom: 1px solid #ffffff57;
