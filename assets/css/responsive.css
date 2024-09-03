@@ -13,6 +13,9 @@
     .contact-form-wrapper .form-block form .captcha-button-wrapper .submit-button {
         width: 100%;
     }
+    .banner-content-wrapper .banner-content .text-block h4 {
+        
+    }
 
 }
 @media only screen and (max-width: 1200px){
@@ -25,16 +28,16 @@
     .banner-content-wrapper .banner-content .text-block h1 {
         font-size: 70px;
     }
-    .banner-content-wrapper .banner-content .text-block h2{
+    .banner-content-wrapper .banner-content .text-block h2 {
         font-size: 21px;
-        margin-block-start: 25px;
-        margin-block-end: 29px;
+        margin-block-start: 1px;
+        margin-block-end: 15px;
     }
     .banner-content-wrapper .banner-content .text-block p {
         font-size: 18px;
     }
     .banner-content-wrapper .banner-content .image-block {
-        width: 71%;
+        width: 100%;
     }
     .banner-content-wrapper {
         padding-block-start: 68px;
@@ -88,11 +91,11 @@
         font-size: 18px;
     }
     .banner-content-wrapper .banner-content .text-block {
-        text-align: center;
+        text-align: start;
         margin-block-end: 45px;
     }
     .banner-content-wrapper .banner-content .about-me-sec {
-        justify-content: center;
+        justify-content: start;
     }
     .about-section-wrapper .awesome-idea {
         margin-block-start: 70px;
@@ -150,6 +153,15 @@
     .contact-form-wrapper .form-block .contact-wrapper .box .rt-block span {
         font-size: 18px;
     }
+    .banner-content-wrapper .banner-content .text-block #element {
+        font-size: 36px;
+    }
+    .animate span {
+        font-size: 68px;
+    }
+    .animate {
+       margin: 0;
+    }
 }
 @media only screen and (max-width: 991px){
     .contact-form-wrapper .form-block .contact-wrapper .box {
@@ -178,11 +190,11 @@
         font-size: 18px;
     }
     .header-wrapper header .download-cv a {
-        padding-inline: 25px;
-        padding-block: 10px;
+        padding-inline: 29px;
+        padding-block: 9px;
         border-radius: 6px;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 13px;
     }
     .animate {
         margin:  0 !important;
@@ -199,7 +211,32 @@
     .stellarnav.desktop {
         margin-block: 11px;
     }
-    
+    .banner-content-wrapper .banner-content .text-block {
+        text-align: center;
+    }
+    .banner-content-wrapper .banner-content .about-me-sec {
+        justify-content: center;
+    }
+    .banner-content-wrapper .banner-content .image-block {
+        width: 60%;
+    }
+    .banner-content-wrapper {
+        padding-block-end: 49px;
+    }
+    .about-section-wrapper {
+        padding-block-start: 100px;
+    }
+    .about-section-wrapper .bottom-section .hire-me .image-block {
+        width: 76%;
+        display: flex;
+        justify-content: center;
+    }
+    .header-wrapper header .logo-block a img:nth-child(1) {
+        width: 12%;
+    }
+    .header-wrapper header .logo-block a img:nth-child(2) {
+        width: 49%;
+    }
 }
 @media only screen and (max-width: 768px){
     
@@ -263,6 +300,15 @@
     .contact-form-wrapper .form-block .submit-button-wrapper{
         width: 100%;
     }
+    .banner-content-wrapper .banner-content .text-block #element {
+        font-size: 38px;
+    }
+    .banner-content-wrapper .banner-content .text-block h4 {
+        height: auto;
+    }
+    .banner-content-wrapper .banner-content .text-block #element {
+        font-size: 35px;
+    }
 }
 @media only screen and (max-width: 574px){
     .about-section-wrapper .high-quality {
@@ -313,13 +359,19 @@
         margin: 0;
     }
 }
+@media only screen and (max-width: 537px){
+    .banner-content-wrapper .banner-content .text-block #element {
+        font-size: 29px;
+    }
+}
 @media only screen and (max-width: 499px){
     .portfolio-wrapper .portfolio-image-gallery .button-group button:active{
         transform: scale(0.96);
     }
     .header-wrapper header .download-cv a {
-        padding-inline: 22px;
+        padding-inline: 19px;
         font-size: 13px;
+        padding-block: 8px;
     }
     .banner-content-wrapper {
         padding-block-start: 21px;
@@ -333,11 +385,15 @@
     }
     .banner-content-wrapper .banner-content .text-block h2 {
         font-size: 19px;
-        margin-block-start: 14px;
+        margin-block-start: 1px;
         margin-block-end: 19px;
+        max-width: 222px;
+        margin: auto;
+        padding-block-end: 16px;
     }
     .banner-content-wrapper .banner-content .text-block p {
         font-size: 15px;
+        font-weight: 300;
     }
     .banner-content-wrapper .banner-content .about-me-sec .rt-block a {
         font-size: 13px;
@@ -475,15 +531,15 @@
         font-size: 24px;
     }
     .animate span {
-        font-size: 48px;
+        font-size: 40px;
     }
     .header-wrapper.sticky {
         padding-block-start: 12px;
         padding-block-end: 8px;
     }
     .header-wrapper nav {
-        padding-inline: 39px;
-        padding-block: 5px;
+        padding-inline: 31px;
+        padding-block: 3px;
     }
     .portfolio-wrapper .portfolio-image-gallery .top-block {
         height: 150px;
@@ -498,5 +554,46 @@
     .label-container{
         width: 150px !important;
     }
-    
+    .banner-content-wrapper .banner-content .text-block #element {
+        font-size: 24px;
+    }
+    .banner-content-wrapper .banner-content .text-block h4 {
+        height: auto;
+    }
+    .header-wrapper header .logo-block a img:nth-child(2) {
+        width: 40%;
+    }
+    .header-wrapper header .logo-block a img:nth-child(1) {
+        width: 10%;
+    }
 }
+@media only screen and (max-width: 348px){
+    .banner-content-wrapper .banner-content .text-block h4 {
+        font-size: 17px;
+    }
+    .header-wrapper header .download-cv a {
+        padding-inline: 11px;
+        font-size: 13px;
+        padding-block: 8px;
+    }
+    .header-wrapper header .download-cv .hover-element i {
+        color: #fff;
+        font-size: 19px;
+    }
+    .header-wrapper nav {
+        padding-inline: 30px;
+        padding-block: 6px;
+    }
+    .stellarnav .menu-toggle span.bars span {
+        width: 31px;
+        height: 1px;
+        background: #ffffff;
+        margin: 0;
+    }
+    .banner-content-wrapper .banner-content .text-block #element {
+        font-size: 21px;
+    }
+}
+
+
+

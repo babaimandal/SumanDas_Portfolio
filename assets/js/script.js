@@ -1,11 +1,16 @@
 // <!-- Typed js Handler -->
-var typed = new Typed('#element', {
-    strings: ['Hello, I\'m'],
-   typeSpeed: 100,
-   loop: false,
-    backSpeed: 0,
-    backDelay: 100,
-    startDelay: 1000,
+let typed = new Typed('#element', {
+  // strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
+  strings: [
+    'Hello, I\'m  Graphics Designer', 
+    'Hello, I\'m  Logo Designer',
+    'Hello, I\'m  UI Designer', 
+    'Hello, I\'m  Design Analist'
+  ],
+  typeSpeed: 100,
+  backSpeed: 20,
+  smartBackspace: true, // this is a default
+  loop: true
 });
 // ============== ============= Scroll To top ==================
 var btn = $('#scroll-to-top');
@@ -130,9 +135,6 @@ jQuery('.stellarnav ul li a').click(function(){
     'display':'none',
   });
 });
-
-
-
 
 
 
